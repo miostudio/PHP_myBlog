@@ -1,0 +1,122 @@
+/*
+-------------------------
+version:1.0
+-------------------------
+*/
+html,body,div,p,img,ul,li,h1,p{margin:0; padding:0; border:0}
+body{ font-family: arial, 宋体, serif; font-size:12px} 
+.clear{clear:both; height:10px; width:100%; zoom: 1;}
+
+#header .title, #containner, #footer div{width:800px; margin:0 auto;}
+
+#header{font-family:'微软雅黑';background:#13C77E; height:120px;}
+#header h1{line-height:50px;}
+#header span{margin:0 0 30px 80px; line-height:40px;}
+
+
+
+
+#containner{ padding:5px; border:1px solid #ccc;
+	background:#efeeef;
+	overflow:hidden;
+}
+#containner .left{
+    float: left;
+    width: 180px;
+    margin-right: -180px;
+    text-align: left;
+    border-style: solid;
+    border-width: 0 1px 0 0;
+}
+
+#containner .left ul{
+	margin: 0;
+    padding: 0;
+    border: 0;
+    list-style: none;
+}
+
+#containner .left .itm2 {
+    line-height: 20px;
+    cursor: pointer;
+}
+
+#containner .left .dot {
+    width: 20px;
+    text-align: center;
+}
+.iblock {
+    display: -moz-inline-box;
+    display: inline-block;
+    zoom: 1;
+}
+.dot {
+    font-family: simsun;
+}
+ .fc04 a{
+    color: #0096ff;
+	text-decoration: none;
+}
+
+#containner .right{
+    margin-left: 180px;
+    padding-left: 10px;
+    overflow: hidden;
+    border-style: solid;
+    border-width: 0 0 0 1px;
+}
+
+.pageBtn{text-align:center;}
+
+h4.menutitle {
+    margin: 10px 24px 5px 0;
+    padding: 0 0 6px 3px;
+    border-style: solid;
+    border-width: 0 0 1px;
+    font-size: 12px;
+	
+	color: #0096ff;
+}
+
+
+
+
+
+
+
+#footer{text-align:center; background:#13C77E; padding:10px;}
+
+
+
+
+/* from http://www.divcss5.com/template/m101.shtml
+* navagator
+*/
+#nav{line-height: 24px;  list-style-type: none; background:#666; } 
+ 
+#nav a{display: block; width: 80px; text-align:center} 
+ 
+#nav a:link {color:#666; text-decoration:none} 
+#nav a:visited {color:#666;text-decoration:none} 
+#nav a:hover {color:#FFF;text-decoration:none;font-weight:bold} 
+ 
+#nav li{float: left; width: 80px; background:#CCC} 
+#nav li a:hover{ background:#999} 
+#nav li ul{line-height: 27px;  list-style-type: none;text-align:left;left: -999em; width: 180px; position: absolute} 
+#nav li ul li{float: left; width: 180px;background:#EFEFEF} 
+ 
+ 
+#nav li ul a{display: block; width: 156px;text-align:left;padding-left:24px; overflow:hidden} 
+ 
+#nav li ul a:link {color:#666; text-decoration:none} 
+#nav li ul a:visited {color:#666;text-decoration:none} 
+#nav li ul a:hover {color:#F3F3F3;text-decoration:none;font-weight:normal;background:#C00} 
+ 
+#nav li:hover ul{left: auto} 
+#nav li.sfhover ul{left: auto} 
+/* end of navagator*/
+
+
+
+
+
